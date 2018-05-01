@@ -43,25 +43,25 @@ class SkyTile extends Tile {
     // call super class' display method so we get our
     // clean matrix and translation
     super.display();
-    console.log("width " + width);
+    console.log("width " + this.tileSize);
     //BACKGROUND ELEMENTS:
     //Fabric Color n Grid:
     fill(247, 246, 242);
-    rect(0, 0, width, height); 
+    rect(0, 0, this.tileSize, this.tileSize); 
     
-    for (let i=0; i<= width; i=i+30){
+    for (let i=0; i<= this.tileSize; i=i+30){
     	fill(252, 58, 58);
-    	rect(i-3, 0, 5, height);
-    	rect(0, i-6, width, 5);
+    	rect(i-3, 0, 5, this.tileSize);
+    	rect(0, i-6, this.tileSize, 5);
     }
 
     //Dish:
     fill(249, 251, 255);
-    ellipse(width/2, height/2, width*7/8, height*7/8);
+    ellipse(this.tileSize/2, this.tileSize/2, this.tileSize*7/8, this.tileSize*7/8);
     fill(234, 235, 237);
-    ellipse(width/2, height/2, width*5/8, height*5/8);
+    ellipse(this.tileSize/2, this.tileSize/2, this.tileSize*5/8, this.tileSize*5/8);
     fill(244, 245, 247)
-    ellipse(width/2, height/2, width*5/8 -10, height*5/8 -10);
+    ellipse(this.tileSize/2, this.tileSize/2, this.tileSize*5/8 -10, this.tileSize*5/8 -10);
 
     //CURLY FRIES:
     for (let i = 0; i<this.shapeCurly;i++){
@@ -84,13 +84,13 @@ class SkyTile extends Tile {
     	console.log(w,h);
     	stroke(255,204,0);
     	strokeWeight(30);
-    	if (w <width/2){
+    	if (w <this.tileSize/2){
     		var ranX = parseInt(random(0,200));
     	}else{
     		var ranX = parseInt(random(0,-200));	
     	}
     	
-    	if (h<height/2){
+    	if (h<this.tileSize/2){
     		var ranY = parseInt(random(0,200));
     	}else{
     		var ranY = parseInt(random(0,-200));	
