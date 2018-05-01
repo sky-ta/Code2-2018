@@ -17,7 +17,7 @@ function setup() {
 }
 
 function draw() {
-  background(247, 246, 242);
+  background(0);
 
   for (var i = 0; i < tiles.length; i++) {
     tiles[i].update();

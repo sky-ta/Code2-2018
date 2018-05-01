@@ -37,41 +37,6 @@ class SkyTile extends Tile {
 		}
 	}
 
-
-	//Bellow is Rian's EXAMPLE
-		// processData(){
-		// 		console.log(this.table.getColumn('What is your favorite ice cream flavor?'));
-		// 		let answers = this.table.getColumn('What is your favorite ice cream flavor?');
-		// 		this.flavors =  [];
-		// 		this.icecream = [];
-		// 		for(var i =0; i<14;i++){
-		// 			this.flavors.push(answers[i]);
-		// 			this.icecream.push(new IceCream(this.flavors[i], this.tileSize));
-		// 		}
-		// 	}
-	// Bellow is Jonathan's EXAMPLE (only work with binary0:
-		// this.lonelyYes = 0;
-		// this.lonelyNo = 0;
-
-		// this.lonelyAnswers = this.table.getColumn('How do you like your fries?');
-		// console.log(this.lonelyAnswers);
-
-
-		// for (let i = 0; i < this.lonelyAnswers; i++){
-		// 	if (this.lonelyAnswers[i]==='Yes'){
-		// 		this.lonelyYes++;
-		// // 	}else{
-		// // 		this.lonelyNo++;
-		// 	}
-		// }
-
-		// console.log(this.lonelyYes);
-	// End of EXAMPLE.
-
-	
-
-
-
   display() {
     noStroke();
 
@@ -80,7 +45,10 @@ class SkyTile extends Tile {
     super.display();
     console.log("width " + width);
     //BACKGROUND ELEMENTS:
-    //Fabric Grid:
+    //Fabric Color n Grid:
+    fill(247, 246, 242);
+    rect(0, 0, width, height); 
+    
     for (let i=0; i<= width; i=i+30){
     	fill(252, 58, 58);
     	rect(i-3, 0, 5, height);
@@ -200,10 +168,6 @@ class SkyTile extends Tile {
 
     }
 
-
-    // rect(30, 20, 55, 55, 20, 15, 10, 5);
-
-    // console.log(this.table);
   }
 
 }
