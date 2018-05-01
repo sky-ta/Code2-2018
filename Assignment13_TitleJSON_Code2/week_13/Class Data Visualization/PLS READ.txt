@@ -1,0 +1,18 @@
+"How do you like your fries?": Assignment 14
+Sky Ta
+Code 2 - Spring 2018
+Prof. Jonathan Beilin
+
+Reference: This project is made happened thanks to the help of
+1. Code reference for title: Prof. Jonathan Beilin
+2. Tuitor(s): Rian Ishikawa
+
+Description:
+- I visualize a dish of fries based on the answers I got from our class' questionair.
+- The number of straight fries options is descibed by line().
+- The number of curly fries options is descibed by arc().
+- The number of salty fries option is descibed by many squares, or rect(). Each "Salty" answer resulted in 10 grains of salt.
+- The number of fries without sause is descibed by sauce package that isn't teared.
+- The number of fries with sause is descibed by sauce package that is teared.
+- The background, including the table and the dish is combined by for loop grid and ellipse()s.
+- The objects are randomize position on the page everytime it got reloaded.
