@@ -1,2 +1,9 @@
-Currently this project is under construction.
-Thank you for your patient! :D
+Switches States: Assignment 5
+Sky Ta
+Code 2 - Spring 2018
+Prof. Jonathan Beilin
+
+Reference: This project is made happened thanks to the help of
+1. Code reference: Prof. Jonathan Beilin (https://github.com/dongle/Code2_2018SP)
+2. Tuitor(s): Rian Ishikawa
+

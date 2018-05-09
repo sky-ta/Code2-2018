@@ -1,0 +1,12 @@
+JSON/API: Assignment 6
+Sky Ta
+Code 2 - Spring 2018
+Prof. Jonathan Beilin
+
+Reference: This project is made happened thanks to the help of
+1. Code reference for title: Prof. Jonathan Beilin (https://github.com/dongle/Code2_2018SP), Rian Ishikawa
+2. Tuitor(s): Karen Nguyen, Rian Ishikawa
+
+
+Description:
+- The shape moves depends on the data fetched from the earth quake

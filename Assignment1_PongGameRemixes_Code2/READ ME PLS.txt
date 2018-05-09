@@ -10,5 +10,12 @@ Reference: This project is made happened thanks to the help of
 
 Description:
 1. Pong Game Original Remix:
-
+	- This is a simple iteration of the pong game
+	- Move left paddle with 'W' and 'S'key
+	- Move right paddle with 'UP' and 'DOWN' key
 2. Pong Game, My Remix:
+	- This is the new remix of the pong game, MUCH HARDER!
+	- In this iteration, the color of the screen change everytime a player scored
+	- Color of pong ball basically blends to the background
+	- The paddles flashes color, create distraction to player
+	- Require a lot more focus!!

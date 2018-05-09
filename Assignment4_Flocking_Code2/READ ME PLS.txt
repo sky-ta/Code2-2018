@@ -1,0 +1,13 @@
+Flocking: Assignment 4
+Sky Ta
+Code 2 - Spring 2018
+Prof. Jonathan Beilin
+
+Reference: This project is made happened thanks to the help of
+1. Code reference: Prof. Jonathan Beilin, Rian Ishikawa
+2. Tuitor(s): Rian Ishikawa
+
+Description:
+- Each flock piece is different by color and transparency, mimic glass effect
+- The flock curve toward the direction of mouse
+- There are varieties of flock in size
