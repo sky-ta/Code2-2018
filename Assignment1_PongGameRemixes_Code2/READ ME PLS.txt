@@ -1,0 +1,14 @@
+Pong Game Remixes: Assignment 1
+Sky Ta
+Code 2 - Spring 2018
+Prof. Jonathan Beilin
+
+Reference: This project is made happened thanks to the help of
+1. Code reference for title: Prof. Jonathan Beilin (https://github.com/dongle/Code2_2018SP)
+2. Tuitor(s): Karen Nguyen, Rian Ishikawa
+3. YouTube link: https://www.youtube.com/watch?v=20Vv-OA35gc
+
+Description:
+1. Pong Game Original Remix:
+
+2. Pong Game, My Remix:
